@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="echo" debug="0" reloadable="false" useHttpOnly="true"
+	clearReferencesHttpClientKeepAliveThread="true"
+	clearReferencesStopThreads="true" clearReferencesStopTimerThreads="true">
+
+
+</Context>

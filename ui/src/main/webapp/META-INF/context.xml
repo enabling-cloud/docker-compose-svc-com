@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ui" debug="0" reloadable="false" useHttpOnly="true"
+	clearReferencesHttpClientKeepAliveThread="true"
+	clearReferencesStopThreads="true" clearReferencesStopTimerThreads="true">
+
+
+	<Environment name="app" type="java.lang.String"
+		value="${catalina.base}/webapps/echo-service" />
+
+	<Environment name="url" type="java.lang.String"
+		value="http://dateservice:8080/date-service" />
+
+</Context>
