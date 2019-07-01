@@ -79,35 +79,6 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>central</id>
-			<name>libs-release</name>
-			<url>http://artifactory.oraclecorp.com/artifactory/repo1-cache</url>
-		</repository>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>libs-release</id>
-			<name>libs-release</name>
-			<url>http://artifactory.oraclecorp.com/artifactory/libs-release</url>
-		</repository>
-	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>plugins-release</id>
-			<name>plugins-release</name>
-			<url>http://artifactory.oraclecorp.com/artifactory/plugins-release</url>
-		</pluginRepository>
-	</pluginRepositories>
 	<parent>
 		<groupId>com.test.app</groupId>
 		<artifactId>docker-compose</artifactId>
