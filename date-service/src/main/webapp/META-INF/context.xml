@@ -4,4 +4,10 @@
 	clearReferencesStopThreads="true" clearReferencesStopTimerThreads="true">
 
 
+	<Environment name="app" type="java.lang.String"
+		value="${catalina.base}/webapps/date-service" />
+
+
+	<Environment name="host" type="java.lang.String" value="${host.name}" />
+
 </Context>

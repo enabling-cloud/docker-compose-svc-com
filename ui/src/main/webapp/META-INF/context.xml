@@ -9,5 +9,8 @@
 
 	<Environment name="url" type="java.lang.String"
 		value="http://dateservice:8080/date-service" />
+	
+	    <Environment name="host" type="java.lang.String"
+		value="${host.name}" />
 
 </Context>
